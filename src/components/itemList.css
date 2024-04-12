@@ -1,0 +1,52 @@
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-gap: 30px; /* Increased gap between items */
+}
+
+.item {
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Increased border radius for a smoother look */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.item img {
+  width: 100%;
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover container */
+  border-radius: 15px 15px 0 0; /* Rounded corners only at the top */
+}
+
+.item-content {
+  padding: 20px; /* Padding for content */
+}
+
+.item h3 {
+  margin-top: 0;
+  margin-bottom: 10px; /* Added margin below the title for better spacing */
+  font-size: 20px; /* Increased font size for better readability */
+}
+
+.item p {
+  margin: 0;
+  font-size: 18px; /* Increased font size for better readability */
+}
+
+.item button {
+  margin-top: 10px; /* Added margin above the button for spacing */
+  padding: 15px 30px; /* Increased button padding for better clickability */
+  font-size: 18px; /* Increased font size for button text */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.item button:hover {
+  background-color: #0056b3;
+}
+
+

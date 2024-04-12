@@ -1,0 +1,22 @@
+.checkout-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .checkout-button, .cart-button, .order-history-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover, .cart-button:hover, .order-history-button:hover {
+    background-color: #0056b3;
+  }
+  
